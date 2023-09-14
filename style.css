@@ -434,7 +434,7 @@ header {
 
 /* =============== MEDIA QUERIES ======= */
 
-/* For Desktop View */
+
 @media screen and (max-width: 768px) {
   .container {
     padding: 0 1rem;
