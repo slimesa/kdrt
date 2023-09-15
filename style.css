@@ -244,89 +244,6 @@ header {
     0 2rem 0 -1rem hsla(17, 79%, 65%, 0.65);
 }
 
-/* ========= CONTACT SECTION ========== */
-.container{
-  background: #fff;
-  border-radius: 6px;
-  padding: 20px 60px 30px 40px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-}
-.container .content{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.container .content .left-side{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content:left;
-  margin-top: 15px;
-  position:relative;
-}
-.content .left-side::before{
-  content: '';
-  position: absolute;
-  right: -15px;
-  top: 50%;
-  transform: translateY(-50%);
- background: #afafb6;
-}
-.content .left-side .details{
-  margin: 14px;
-  text-align: center;
-}
-.content .left-side .details i{
-  font-size: 30px;
- color: #3e2093;
-  margin-bottom: 10px;
-}
-.content .left-side .details .topic{
-  font-size: 18px;
-  font-weight: 500;
-}
-.content .left-side .details .text-one,
-  .content .left-side .details .text-two{
-    font-size: 14px;
- color: #afafb6;}
-
- .container .content .right-side{
-  margin-left: 76px;
-}
-
-/*===========if any mistakes occcur refer to line 365 to line 396============ */
-   @media (max-width: 500px) {
-    .container{
-      padding: 30px 40px 40px 35px ;
-    }
-    .container .content .right-side{
-     width: 75%;
-     margin-left: 55px;
-  }
-  }
-  @media (max-width: 500px) {
-    .container{
-      margin: 40px 0;
-      height: 100%;
-    }
-    .container .content{
-      flex-direction: column-reverse;
-    }
-   .container .content .left-side{
-     width: 100%;
-     flex-direction: row;
-     margin-top: 40px;
-     justify-content: center;
-     flex-wrap: wrap;
-   }
-   .container .content .left-side::before{
-     display: none;
-   }
-   .container .content .right-side{
-     width: 100%;
-     margin-left: 0;
-   }
-  }
 
 /* =============== FOOTER =============== */
 .top-footer {
@@ -389,7 +306,7 @@ header {
 /* =============== MEDIA QUERIES ======= */
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
   .container {
     padding: 0 1rem;
   }
