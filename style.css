@@ -293,8 +293,9 @@ header {
  .container .content .right-side{
   margin-left: 76px;
 }
+
 /*===========if any mistakes occcur refer to line 365 to line 396============ */
-   @media (max-width: 768px) {
+   @media (max-width: 500px) {
     .container{
       padding: 30px 40px 40px 35px ;
     }
@@ -303,7 +304,7 @@ header {
      margin-left: 55px;
   }
   }
-  @media (max-width: 768px) {
+  @media (max-width: 500px) {
     .container{
       margin: 40px 0;
       height: 100%;
